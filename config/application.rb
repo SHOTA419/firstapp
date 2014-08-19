@@ -24,5 +24,6 @@ module Firstapp
 
         #for heroku deploy
         config.serve_static_assets = true
+        config.assets.compile = true
   end
 end
