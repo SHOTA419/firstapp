@@ -21,5 +21,6 @@ end
 
 group :production do
   gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
+  gem 'therubyracer-heroku', '0.8.1.pre3'
+  gem 'rails_12factor'
 end
