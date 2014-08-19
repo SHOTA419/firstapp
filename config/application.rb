@@ -23,7 +23,7 @@ module Firstapp
     # config.i18n.default_locale = :de
 
         #for heroku deploy
-        config.serve_static_assets = true
+        config.serve_static_assets = false
         config.assets.compile = true
   end
 end
